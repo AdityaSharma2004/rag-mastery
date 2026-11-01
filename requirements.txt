@@ -1,0 +1,39 @@
+# Core (all weeks)
+google-genai>=1.0
+python-dotenv
+numpy
+pydantic
+
+# Week 1
+scikit-learn
+matplotlib
+rank-bm25
+
+# Week 2
+chromadb
+qdrant-client
+pinecone
+psycopg[binary]
+pgvector
+sentence-transformers   # cross-encoder reranker (runs locally, free)
+
+# Week 3
+pypdf
+python-docx
+beautifulsoup4
+requests
+pandas
+langchain-text-splitters
+fastapi
+uvicorn
+reportlab          # generates sample PDFs for topic 01
+
+# Week 4
+ragas
+llama-index
+llama-index-llms-google-genai
+llama-index-embeddings-google-genai
+redis
+fakeredis          # in-process Redis for offline caching practice
+pillow
+pytesseract       # optional OCR (also needs the tesseract binary)
